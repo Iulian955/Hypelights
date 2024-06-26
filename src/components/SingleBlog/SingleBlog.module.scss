@@ -1,0 +1,187 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.singleBlogContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+  margin: auto;
+  box-sizing: border-box;
+  @include media("<tablet") {
+  }
+  @include media(">=tablet", "<desktop") {
+  }
+}
+
+.headTitle {
+  padding: 0 5%;
+  padding-top: 90px;
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(rgba(35, 51, 15, 0.7), rgba(35, 51, 15, 0.7)),
+    url("../../media/assets/pics/servicesImg/headBg.jpeg");
+  background-size: cover;
+  background-size: 100% 150%;
+  color: rgba(253, 253, 253, 1);
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  // line-height: 48px;
+  letter-spacing: 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @include media("<tablet") {
+    height: 260px;
+    font-size: 30px;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 300px;
+    font-size: 35px;
+  }
+}
+
+.headTitleBlog {
+  color: rgba(253, 253, 253, 1);
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 600;
+  @include media("<tablet") {
+    font-size: 18px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 28px;
+  }
+}
+
+.greenBtn {
+  button {
+    cursor: default !important;
+    border: none;
+    background-color: rgba(98, 146, 42, 1);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 8px;
+    @include media("<tablet") {
+      font-size: 12px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+    }
+  }
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dataContainer {
+  div {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    @include media("<tablet") {
+      font-size: 10px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 12px;
+    }
+  }
+}
+
+.userContainer {
+  div {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    // text-align: center;
+    @include media("<tablet") {
+      font-size: 10px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 12px;
+    }
+  }
+}
+
+.blogImages {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 5% 8%;
+  gap: 1rem;
+}
+
+// .smallImg {
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   gap: 5px;
+
+//   img {
+//     width: 100%;
+//     height: 200px;
+//     object-fit: cover;
+//     @include media("<tablet") {
+//       height: 100px;
+//     }
+//     @include media(">=tablet", "<desktop") {
+//       height: 150px;
+//     }
+//   }
+// }
+
+.bigImg {
+  width: 100%;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    object-position: center;
+    @include media("<tablet") {
+      height: 310px;
+    }
+    @include media(">=tablet", "<desktop") {
+      height: 460px;
+    }
+  }
+}
+
+.blogDescription {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 5% 8%;
+}

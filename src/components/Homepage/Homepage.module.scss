@@ -1,0 +1,608 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.homepageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+  margin: auto;
+  // background: black;
+  box-sizing: border-box;
+  @include media("<tablet") {
+  }
+  @include media(">=tablet", "<desktop") {
+  }
+}
+
+.firstSection {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  // max-height: 100vh;
+  background: url("../../media/assets/pics/homepage/homepageBg.jpeg");
+  background-size: cover;
+  background-size: 100% 100%;
+  @include media("<tablet") {
+    background: linear-gradient(rgba(35, 51, 15, 0.7), rgba(35, 51, 15, 0.7)),
+      url("../../media/assets/pics/homepage/homepageBg.jpeg");
+    background-size: cover;
+    height: 700px;
+  }
+  @include media(">=tablet", "<desktop") {
+    background-size: cover;
+    background: linear-gradient(rgba(35, 51, 15, 0.7), rgba(35, 51, 15, 0.7)),
+      url("../../media/assets/pics/homepage/homepageBg.jpeg");
+  }
+}
+
+.texts {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2em;
+  padding: 0 8%;
+  @include media("<tablet") {
+    width: 100%;
+    gap: 1em;
+  }
+  @include media(">=tablet", "<desktop") {
+    width: 100%;
+    gap: 1em;
+  }
+
+  .mainTitle {
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    @include media("<tablet") {
+      font-size: 40px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 55px;
+    }
+  }
+
+  .subTitle {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+
+.homeBtn {
+  button {
+    border: none;
+    background-color: rgba(98, 146, 42, 1);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 8px;
+  }
+}
+
+.newSection {
+  position: absolute;
+  width: 84%;
+  height: 150px;
+  background-color: rgba(253, 253, 253, 1);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: -5rem;
+  left: 8%;
+  z-index: 100;
+  border-radius: 8px;
+  @include media("<tablet") {
+    margin-top: -8rem;
+    height: auto;
+  }
+  @include media(">=tablet", "<desktop") {
+    margin-top: -12rem;
+    height: auto;
+  }
+}
+
+.secondSection {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 253, 253, 1);
+  padding: 12% 8%;
+  @include media("<tablet") {
+    padding-top: 55%;
+  }
+  @include media(">=tablet", "<desktop") {
+    padding-top: 25%;
+  }
+}
+
+.containerSystem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 10%;
+  @include media("<tablet") {
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  @include media(">=tablet", "<desktop") {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+.systems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.systemTitle {
+  color: rgba(28, 34, 22, 1);
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.systemSubTitle {
+  color: rgba(107, 111, 104, 1);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.secondSectionMainTitle {
+  color: rgba(28, 34, 22, 1);
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  @include media("<tablet") {
+    font-size: 32px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 36px;
+  }
+}
+
+.secondSectionSubTitle {
+  color: rgba(107, 111, 104, 1);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0 10%;
+  @include media("<tablet") {
+    font-size: 12px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 14px;
+  }
+}
+
+.mainTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.servicesContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  row-gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  @include media("<tablet") {
+    grid-template-columns: 1fr;
+  }
+  @include media(">=tablet", "<desktop") {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.service {
+  position: relative;
+  // width: 100%;
+  // height: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 100%;
+    height: 360px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.serviceTitle {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  color: rgba(253, 253, 253, 1);
+  padding: 5px 0;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center !important;
+  backdrop-filter: brightness(60%);
+  @include media("<tablet") {
+    font-size: 16px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 18px;
+  }
+}
+
+.thirdSection {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 253, 253, 1);
+  padding: 4% 8%;
+}
+
+.irigatiiTitle {
+  color: rgba(28, 34, 22, 1);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.iritgatiiSubTitle {
+  color: rgba(107, 111, 104, 1);
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.sisIrigatii {
+  max-width: 350px;
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgba(247, 250, 244, 1);
+  border-radius: 8px;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.irigatii {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.forthSection {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 253, 253, 1);
+  padding: 4% 8%;
+}
+
+.myCarousel {
+  border: none !important;
+  outline: none !important;
+  user-select: none !important;
+}
+
+.carouselImg {
+  width: 98%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  img:focus {
+    outline: none !important;
+    border: none !important;
+  }
+  img {
+    width: 98%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+  }
+}
+
+.myCarousel *:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  a {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(28, 34, 22, 1);
+    text-decoration: none;
+    @include media("<tablet") {
+      font-size: 16px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 12px;
+    }
+
+    &:hover {
+      color: rgba(98, 146, 42, 1);
+    }
+  }
+  @include media("<tablet") {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 12px;
+  }
+}
+
+.fifthSection {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 253, 253, 1);
+  padding: 4% 8%;
+  box-sizing: border-box;
+}
+
+.greenBtn {
+  button {
+    border: none;
+    background-color: rgba(98, 146, 42, 1);
+    color: white;
+    padding: 0.2rem 0.8rem;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 8px;
+    @include media("<tablet") {
+      font-size: 12px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+    }
+  }
+}
+
+.artBtn {
+  button {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: rgba(28, 34, 22, 1);
+    background: transparent;
+    border: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: rgba(28, 34, 22, 1);
+    }
+  }
+}
+
+.artMainTitle {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 34, 22, 1);
+  @include media("<tablet") {
+    font-size: 16px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 18px;
+  }
+}
+
+.artSubTitle {
+  color: rgba(107, 111, 104, 1);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  @include media("<tablet") {
+    font-size: 12px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 14px;
+  }
+}
+
+.userContainer {
+  div {
+    color: rgba(107, 111, 104, 1);
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    // text-align: center;
+    @include media("<tablet") {
+      font-size: 10px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 12px;
+    }
+  }
+}
+
+.dataContainer {
+  div {
+    color: rgba(107, 111, 104, 1);
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    @include media("<tablet") {
+      font-size: 10px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 12px;
+    }
+  }
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.wrapperArt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+
+  div {
+    .artImg {
+      width: 100%;
+      height: 320px !important;
+      object-position: 100% 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  @include media("<tablet") {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @include media(">=tablet", "<desktop") {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.textsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  justify-content: space-between;
+  flex: 1;
+}
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.activeLink {
+  color: rgba(98, 146, 42, 1);
+}

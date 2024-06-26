@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "DM Sans Regular";
+  src: url(./../fonts/DMSans-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "DM Sans Bold";
+  src: url(./../fonts/DMSans-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Questrial Regular";
+  src: url(./../fonts/Questrial-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Blemo";
+  src: url(./../fonts/blemo.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url(./../fonts/BebasNeueRegular.ttf);
+  font-weight: normal;
+}
+$colors: (
+  greenMontan: #00739e,
+
+  mainlyBlack: black,
+  chillBlack: gray,
+  redBomb: #00ac10,
+  headColor: #caa987,
+  headColorLight: #e4be98,
+  welcomeHead: #5c534c,
+  elementText: #524033,
+  borderAbout: rgb(83, 85, 0),
+  whiteCreamy: #fcebda,
+  whiteCreamyHover: #f3efea,
+  navBarBackground: rgba(233, 233, 233, 0.8),
+  navBarBackgroundMobile: rgba(116, 51, 51, 0),
+  burgerColorBackground: white,
+  liItemColor: #caa987,
+  whitePure: rgb(255, 255, 255),
+  whiteSmokey: whitesmoke,
+  chillGrayTransparent: rgba(95, 95, 95, 0.41),
+  chillGraySolid: rgb(95, 95, 95),
+  blueSky: rgb(4, 126, 182),
+  silver: rgb(169, 169, 169),
+  beautyBush: #eeb9cb,
+  blackSolid: black,
+  errorRed: #ff0000
+);

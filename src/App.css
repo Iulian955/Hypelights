@@ -1,0 +1,153 @@
+.App {
+  /* max-width: 1920px; */
+  margin: auto;
+  font-family: "DM Sans Regular";
+  position: relative;
+  background-color: white;
+}
+
+.orange {
+  color: orange;
+}
+.blueTheme {
+  color: #003554;
+}
+
+/* body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+.topText {
+  margin-top: -10px;
+  color: #ec4c45;
+  position: absolute;
+}
+
+.project-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+.buttons-list {
+  column-gap: 40px;
+  row-gap: 34px;
+}
+
+.categ-button {
+  font-weight: 700;
+  border: 3px solid #a5a5a5;
+  color: #a5a5a5;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+}
+.secondary-btn {
+  width: fit-content;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 5px 2rem;
+}
+
+.button-active {
+  cursor: pointer;
+}
+
+.button-active {
+  color: #ff8310;
+  border-color: #ff8310;
+}
+
+.row.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+}
+.card-container {
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-title {
+  position: absolute;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  bottom: -100px;
+  color: #fff;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.17) 0%,
+    rgba(0, 0, 0, 0.17) 35.42%,
+    rgba(0, 0, 0, 0.17) 67.19%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 100%;
+  padding: 20px 17px;
+  transition: all 0.25s linear;
+}
+@media screen and (max-width: 992px) {
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+.card-container:hover .card-title {
+  bottom: 0;
+  transition: all 0.25s linear;
+}
+
+.project-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+span[type="next"] {
+  right: 5%;
+  box-shadow: none;
+
+  opacity: 1;
+}
+
+span[type="prev"] {
+  left: 5%;
+  box-shadow: none;
+  opacity: 1;
+}
+@media (min-width: 991px) {
+  .categ-button:hover {
+    color: #ff8310;
+    border-color: #ff8310;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons-list {
+    gap: 20px;
+  }
+  .categ-button {
+    font-size: 16px;
+  }
+  .row.cards-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+  .project-title {
+    font-size: 30px;
+  }
+}

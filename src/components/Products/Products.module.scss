@@ -1,0 +1,471 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.productsContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+  margin: auto;
+  box-sizing: border-box;
+  @include media("<tablet") {
+  }
+  @include media(">=tablet", "<desktop") {
+  }
+}
+
+.headTitle {
+  padding-top: 90px;
+  width: 100%;
+  height: 360px;
+  background: linear-gradient(rgba(35, 51, 15, 0.7), rgba(35, 51, 15, 0.7)),
+    url("../../media/assets/pics/servicesImg/headBg.jpeg");
+  background-size: cover;
+  background-size: 100% 150%;
+  color: rgba(253, 253, 253, 1);
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  @include media("<tablet") {
+    height: 260px;
+    font-size: 30px;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 300px;
+    font-size: 35px;
+  }
+}
+
+.products {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 253, 253, 1);
+  padding: 5% 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.productMainTitle {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 34, 22, 1);
+  @include media("<tablet") {
+    font-size: 18px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 16px;
+  }
+}
+
+.productSubTitle {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(107, 111, 104, 1);
+  @include media("<tablet") {
+    font-size: 12px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 14px;
+  }
+}
+
+.prImg {
+  // width: 100%;
+  // height: 100%;
+
+  img {
+    border-radius: 8px;
+    width: 250px;
+    height: 230px;
+    object-fit: cover;
+    box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.1);
+    @include media("<tablet") {
+      width: 300px;
+      height: 300px;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+.prBtn {
+  padding-top: 2rem;
+  button {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+    background-color: rgba(98, 146, 42, 1);
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    @include media("<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+  }
+  @include media("<tablet") {
+    width: 100%;
+  }
+  @include media(">=tablet", "<desktop") {
+    width: 100%;
+  }
+}
+
+.singleProduct {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  @include media("<tablet") {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.productsTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactSection {
+  width: 100%;
+  height: 100%;
+  padding: 5% 8%;
+  background-color: rgba(246, 246, 246, 1);
+  background-image: url("../../media/assets/pics/produse/leaf.svg"), url("../../media/assets/pics/produse/leaf.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.contactTitle {
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(28, 34, 22, 1);
+}
+
+.secondSectionContact {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 2rem 0;
+  padding-bottom: 1rem;
+}
+
+.infos {
+  // width: 100%;
+  // height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 6%;
+  @include media("<tablet") {
+    gap: 0.5rem;
+  }
+  @include media(">=tablet", "<desktop") {
+    gap: 0.5rem;
+  }
+}
+
+.contactInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  // justify-content: center;
+  gap: 0.5rem;
+  @include media("<tablet") {
+    gap: 0.5rem;
+  }
+  @include media(">=tablet", "<desktop") {
+    gap: 0.5rem;
+  }
+}
+
+.infoPhoto {
+  text-align: center;
+  background-color: rgba(98, 146, 42, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.infoTitle {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(28, 34, 22, 1);
+  @include media("<tablet") {
+    font-size: 14px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 16px;
+  }
+}
+
+.infoSubTitle {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(107, 111, 104, 1);
+  @include media("<tablet") {
+    font-size: 14px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 16px;
+  }
+}
+
+.formTitle {
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contactInputs {
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  input {
+    border-radius: 8px;
+    border: 2px solid grey;
+    padding: 0.3rem 1rem;
+    transition: 0.5s;
+    &:focus-within {
+      outline: none !important;
+      border-color: rgba(98, 146, 42, 1) !important;
+    }
+  }
+
+  .redInput {
+    border-radius: 8px;
+    border: 2px solid red;
+    padding: 0.3rem 1rem;
+    transition: 0.5s;
+  }
+
+  textarea {
+    height: 100px;
+    resize: none;
+    border-radius: 8px;
+    border: 2px solid grey;
+    padding: 0.3rem 1rem;
+    transition: 0.5s;
+    &:focus-within {
+      outline: none !important;
+      border-color: rgba(98, 146, 42, 1) !important;
+    }
+  }
+
+  label {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    @include media("<tablet") {
+      font-size: 12px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+    }
+  }
+
+  .formBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .formCheck {
+    margin-right: 0.5rem !important;
+    accent-color: rgba(98, 146, 42, 1) !important;
+    width: 17px;
+    height: 17px;
+    &:checked {
+      background-color: red !important;
+    }
+    @include media("<tablet") {
+      width: 14px;
+      height: 14px;
+    }
+    @include media(">=tablet", "<desktop") {
+    }
+  }
+}
+
+.sendBtn {
+  button {
+    background-color: rgba(98, 146, 42, 1);
+    border: none;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding: 0.7rem 1.2rem;
+
+    @include media("<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+  }
+}
+
+.contactForm {
+  background-color: white;
+  padding: 2rem 5%;
+  border-radius: 8px;
+  padding-bottom: 1rem;
+}
+
+.sections {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  gap: 15rem;
+  padding: 5rem 0;
+
+  @include media("<tablet") {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+  @include media(">=tablet", "<desktop") {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+}
+
+.contactTexts {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categoryButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  button {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: transparent;
+    color: rgba(28, 34, 22, 1);
+    border: 2px solid rgba(198, 200, 197, 1);
+    padding: 8px 14px;
+    border-radius: 30px;
+    @include media("<tablet") {
+      font-size: 12px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+    }
+  }
+
+  .activeCategory {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: rgba(98, 146, 42, 1);
+    color: white;
+    border: 2px solid rgba(98, 146, 42, 1);
+    padding: 8px 14px;
+    border-radius: 30px;
+    @include media("<tablet") {
+      font-size: 12px;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+    }
+  }
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+
+  @include media("<tablet") {
+    font-size: 12px;
+  }
+  @include media(">=tablet", "<desktop") {
+    font-size: 14px;
+  }
+}

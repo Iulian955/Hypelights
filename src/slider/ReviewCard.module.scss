@@ -1,0 +1,47 @@
+@import "./main.module.scss";
+
+$headColor: #caa987;
+$welcomeHead: #5c534c;
+
+.onFocus {
+  transition: 1s ease-in;
+  // margin-top: -1% !important;
+  // width: 350px !important;
+  // height: 350px !important;
+}
+.hideThis {
+  visibility: hidden;
+  transition: 0.9s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cardReview {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+
+  aspect-ratio: 1/0.7;
+  height: 90%;
+  cursor: default;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  @include media(">=phone", "<tablet") {
+    width: 50vw;
+  }
+  @include media(">=tablet", "<desktopSmall") {
+    width: 230px;
+    height: 440px;
+  }
+}
+
+.cardReview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+}

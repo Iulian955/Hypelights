@@ -1,0 +1,64 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.thankYouContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 100rem;
+  background-color: blue;
+  margin: auto;
+  @include media("<tablet") {
+  }
+  @include media(">=tablet", "<desktop") {
+  }
+}
+
+.finalMsj {
+  color: red;
+  padding: 5% 8%;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+.headTitle {
+  padding-top: 90px;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(35, 51, 15, 0.7), rgba(35, 51, 15, 0.7)),
+    url("../../media/assets/pics/servicesImg/headBg.jpeg");
+  background-size: cover;
+  background-size: 100% 150%;
+  color: rgba(253, 253, 253, 1);
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  @include media("<tablet") {
+    height: 260px;
+    font-size: 20px;
+    height: 400px;
+  }
+  @include media(">=tablet", "<desktop") {
+    height: 300px;
+    font-size: 25px;
+    height: 500px;
+  }
+
+  .green {
+    color: rgba(98, 146, 42, 1);
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
+  }
+}

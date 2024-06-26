@@ -1,0 +1,143 @@
+{
+  "ned": {
+    "title": "NED",
+    "link": "ned",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%2010.png?alt=media&token=0493f07c-a612-4e41-ba84-41f07ec6fe15",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2Fgif.gif?alt=media&token=92224028-9f2d-4c7a-8461-158dc30f5865",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%208.png?alt=media&token=da44454c-d4e1-471e-9edb-69de7713c73f",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%209.png?alt=media&token=b755795b-6be2-4f45-b076-16b96f03c7d6",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%207.png?alt=media&token=b2135a53-44ac-4719-9d4f-18efdfb44182",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%2011.png?alt=media&token=f704bc05-829e-4e32-ac30-f043928f44e7",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect8%2FRecurso%2012.png?alt=media&token=142ed86a-8f28-4cb8-ac9b-4b733e45d6bf"
+    ]
+  },
+  "kdrink": {
+    "title": "Kdrink",
+    "link": "kdrink",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%201.png?alt=media&token=67dd115c-bb28-403c-9586-a977b7a88784",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%202.png?alt=media&token=50b5d1c9-3fcf-4c6b-9945-18a0a913a2bc",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%203.png?alt=media&token=6c8383fe-b05f-4cc2-a15b-82102c458771",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%204.png?alt=media&token=0ee41b53-b70d-4381-a54a-e61eefebe7a9",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%205.png?alt=media&token=2d7157b8-9882-458b-aa55-3c5dab2e1812",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%206.png?alt=media&token=c15d5791-1e33-4d31-b36f-98cb52754f11",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%207.png?alt=media&token=c329b072-340f-4332-af96-83bb7969de65",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%208.png?alt=media&token=7822310b-17a6-42c7-9af4-69e6a7ab266a",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%209.png?alt=media&token=893ed071-111e-4607-af84-e58addf41050",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%2010.png?alt=media&token=d0392263-bef1-477a-901a-d0b7c301788c",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%2011.png?alt=media&token=34f9b11f-17bd-4c44-bda0-ee990bd69b7e",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%2012.png?alt=media&token=57f2cadb-9d6f-4076-abde-76bb5147c10d",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/RionaRo%2FRecurso%2013.png?alt=media&token=40de2b17-cc01-4364-9509-0e170b9957b1"
+    ]
+  },
+  "sysgen": {
+    "title": "Sysgen",
+    "link": "sysgen",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza1.jpeg?alt=media&token=6fa3c3b8-52c6-4910-8a3e-f99600718df3",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza2.jpeg?alt=media&token=a235c279-9749-4a58-8e8f-ac484707fbe0",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza3.jpeg?alt=media&token=d2518c9d-138b-4955-91cb-b95c3aeffcac",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza4.jpeg?alt=media&token=907c9bbb-8ce8-4379-ba3f-7557a0c27b55",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza5.jpeg?alt=media&token=c7c78600-4bfb-4176-9c34-ea61e2448680",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza6.jpeg?alt=media&token=3725f2b9-f582-44ef-b703-f9548c107153",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza7.jpeg?alt=media&token=bb00c258-d462-4535-af4c-2843086c1547",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza8.jpeg?alt=media&token=c0812279-3bf4-4409-a975-91214c526b89",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza9.jpeg?alt=media&token=c273754e-ba19-4aef-aa9f-e15c2e89ecf8",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza10.jpeg?alt=media&token=56fc2469-6d00-48a2-96b4-4c60b4976440",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza11.jpeg?alt=media&token=4edd58e7-1010-4f94-accf-a009dc9f6852",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect2%2Fpoza12.jpeg?alt=media&token=ce8f4c95-22b8-44bd-8152-08a9fe2f2dfc"
+    ]
+  },
+
+  "papier": {
+    "title": "Papier",
+    "link": "papier",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa1.jpeg?alt=media&token=cf413132-d3ba-42c7-a58e-0be062da8622",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa10.gif?alt=media&token=7710dfc5-345f-4844-a9ad-d6e95fcd6ece",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa2.jpeg?alt=media&token=83ba2fa7-b941-4c9f-97d6-edfcf1ae9801",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa3.png?alt=media&token=6f02a9ab-f7c8-4e94-822a-88a919f92f26",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa4.jpeg?alt=media&token=9d0c62d3-9a8a-4df5-8165-f7ad328b58cd",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa5.jpeg?alt=media&token=79848759-065a-4bb0-bfb2-47d0a8d99a97",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa6.jpeg?alt=media&token=bf4f01de-2de1-48e6-b334-45eeaac002c8",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa7.jpeg?alt=media&token=b192b24e-42a6-4387-b7d9-2da12b311b27",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa8.jpeg?alt=media&token=f4fe79a0-5944-4e42-ac00-cb6ce5ad546a",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa9.jpeg?alt=media&token=63403de9-44f7-4754-a730-a081bec3f9ff",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa11.jpeg?alt=media&token=9de41289-4e34-4b6e-9586-adafb52923b2",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa12.jpeg?alt=media&token=05eab4a0-9219-4e92-b19c-323a1516e237",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa13.jpeg?alt=media&token=0e397710-a88b-40e0-8e41-ed67e3bbbd40",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa14.jpeg?alt=media&token=361d8747-9cb0-43e6-874a-0b41c55dcabb",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect3%2Fa15.jpeg?alt=media&token=22b23dd2-2fe4-4fa8-82d8-61b88ae21519"
+    ]
+  },
+
+  "altertech": {
+    "title": "AlterTech",
+    "link": "altertech",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs2.png?alt=media&token=5cca3393-cfb5-4a7f-94e0-478ae5d00ab4",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs1.gif?alt=media&token=5c473729-eea9-4e88-8cb3-893d780ad26a",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs3.png?alt=media&token=3f421445-4d49-49be-bf88-924790db82e7",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs4.png?alt=media&token=0bb883d4-60d3-4b6b-814f-a646e13b2bab",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs5.png?alt=media&token=2023a2e6-cbca-4ef7-b277-364dd3c0d299",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs6.png?alt=media&token=c747554d-6ebe-4047-a112-52dbc6867f29",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs7.png?alt=media&token=e64bf7ee-0c1d-4bc6-b18e-6e8cab19f61d",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs8.png?alt=media&token=53aeb237-cbf4-408c-a3df-141a5faf042f",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs9.png?alt=media&token=14043b68-0028-4029-8636-f018c9ed1180",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs10.png?alt=media&token=67465523-90b4-46e2-8438-9170ebc581eb",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs11.png?alt=media&token=b091f2ee-346c-4599-9765-970175390d00",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs12.png?alt=media&token=474ec09a-3680-4717-b0a7-c5769f043129",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs13.png?alt=media&token=153d2786-efc9-4f43-99bb-13921be52b5b",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs14.png?alt=media&token=185d6240-438a-42bb-bf84-40450b936e2c",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs16.png?alt=media&token=ddbeef0c-5cd3-41a3-a4be-b7a41f461d44",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs17.png?alt=media&token=d3488f3a-6ee5-47d1-b0b0-e5120a9ed7af",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect4%2Fs18.png?alt=media&token=bb93232b-2831-4116-a70b-833349fcc9b1"
+    ]
+  },
+  "lambro": {
+    "title": "LAMBRO",
+    "link": "lambro",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq1.jpeg?alt=media&token=211c21d8-f30d-48e7-9d2a-9eaedebae5fd",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq2.jpeg?alt=media&token=d0598a8a-a050-499a-91b0-fca02b79c54a",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq4.jpeg?alt=media&token=e7502789-e000-4bf6-b393-802ec1869553",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq5.jpeg?alt=media&token=444ca43e-194e-4010-8850-f9134f5f7108",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq6.jpeg?alt=media&token=6708816c-effa-48f8-b6d2-f106c7e2d006",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect5%2Fq7.jpeg?alt=media&token=1ec5784e-0a9e-4057-9038-753db67eecb8"
+    ]
+  },
+
+  "netroma": {
+    "title": "Netroma",
+    "link": "netroma",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw1.jpeg?alt=media&token=24d83348-a2c0-42cd-950f-9f771b1e3158",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw2.jpeg?alt=media&token=f0fa7c1f-42f2-4100-9e46-aa78571817f5",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2F3.jpeg?alt=media&token=1b4d5286-e4f1-4e82-b4f2-cff01e059c65",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw4.jpeg?alt=media&token=d18fd619-881a-45e0-92df-9524e9776888",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw5.jpeg?alt=media&token=7c6327a0-a538-4875-af81-e73a1f42c076",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw6.jpeg?alt=media&token=9a9c2792-c7a4-4777-a2fc-1c4a84f517aa",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw7.jpeg?alt=media&token=34680e21-14df-43f4-ac42-4c1cbbab4960",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw8.jpeg?alt=media&token=37302514-6de5-4f81-b7fc-725ae426da28",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect6%2Fw9.jpeg?alt=media&token=b719b13b-1222-4c71-b9b4-f3446e6d5876"
+    ]
+  },
+  "axton": {
+    "title": "Axton",
+    "link": "axton",
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe1.png?alt=media&token=5aa6d7dc-4d16-4323-98bb-7d8c3ea3015b",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe2.png?alt=media&token=7038a537-530b-4c59-bc42-ab0efb1d1117",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe3.png?alt=media&token=f548dfb1-4173-4f56-be4c-67c5913526bd",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe4.png?alt=media&token=af1bb4a9-d75c-404a-96fc-1aa42dded25a",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe5.png?alt=media&token=4d04d27b-946c-4909-a8ec-1be7a398b6f2",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe6.png?alt=media&token=cf15e022-a962-4b00-aa83-f2d236a3dd71",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe7.png?alt=media&token=414e4933-ea2f-4717-afca-e18ad6ba54cf",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe8.png?alt=media&token=e24aa59a-dc26-4ec3-ac09-f7d5329922d1",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe9.png?alt=media&token=5aff97f1-0ea1-4a59-aeb7-d99a71c0aa15",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe10.png?alt=media&token=16cb7602-6dd2-49a8-962a-5ea2fbc5d2c5",
+      "https://firebasestorage.googleapis.com/v0/b/daniancaro-23015.appspot.com/o/ProiecteRiona%2FProiect7%2Fe11.png?alt=media&token=0a1b3216-7116-4228-866f-8ead706e4cae"
+    ]
+  }
+}

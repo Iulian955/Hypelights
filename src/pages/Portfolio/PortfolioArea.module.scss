@@ -1,0 +1,15 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+
+.portfolioContainer {
+  outline: 2px solid white;
+  width: 100vw;
+  max-width: 1500px;
+  padding: 0 5%;
+  margin: auto;
+
+  .padder {
+    height: 200px;
+    width: 100%;
+  }
+}

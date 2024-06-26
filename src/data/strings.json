@@ -1,0 +1,329 @@
+{
+  "navItemsFooter": {
+    "campaigns": {
+      "text": "Campaigns",
+      "link": "/campanii"
+    },
+    "emailMarketing": {
+      "text": "Marketing",
+      "link": "/marketing"
+    },
+    "branding": {
+      "text": "Branding",
+      "link": "/branding"
+    },
+    "offline": {
+      "text": "Offline",
+      "link": "/marketing"
+    },
+    "contact": {
+      "text": "Contact",
+      "link": "/marketing"
+    },
+    "faq": {
+      "text": "FAQ",
+      "link": "/faq"
+    }
+  },
+
+  "websiteTitle": "MontanAir.Ro",
+
+  "elasticGallery": {
+    "sapunCosmetic": {
+      "name": "Sapun Cosmetic",
+      "link": "sapun-carbune",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/montanAir%2FcategoriiPoze%2Fcleansing-scrub-presenting-female-cosmetic-product-woman-use-face-cream_545934-26939.webp?alt=media&token=9eb71783-90bb-44e1-b403-b353be7bd0fb",
+      "text": " "
+    },
+    "scrubNatural": {
+      "name": "Scrub Natural",
+      "link": "sapun-carbune",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/montanAir%2FcategoriiPoze%2Ffacial-care-female-applying-cream-smiling-portrait-young-woman-cosmetic-skin-closeup-beautiful-girl-wi-beauty-170374576.jpg?alt=media&token=af845bf4-ad6a-45b0-af55-ad61304fc296",
+      "text": " "
+    },
+    "pastaDinti": {
+      "name": "Sapun Cosmetic",
+      "link": "sapun-carbune",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/montanAir%2FcategoriiPoze%2Fistockphoto-1208515511-612x612.jpg?alt=media&token=bd02902c-31b1-4474-bc9e-a3de116589c7",
+      "text": " "
+    },
+    "cremaNoapte": {
+      "name": "Scrub Natural",
+      "link": "sapun-carbune",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/montanAir%2FcategoriiPoze%2Fistockphoto-1290579053-612x612.jpg?alt=media&token=d6077525-5df0-4ab2-91bb-e7cc95a93f3f",
+      "text": " "
+    },
+    "cremaZi": {
+      "name": "Scrub Zi",
+      "link": "sapun-carbune",
+      "image": "https://firebasestorage.googleapis.com/v0/b/sapunmontan.appspot.com/o/montanAir%2FcategoriiPoze%2Fistockphoto-1290579053-612x612.jpg?alt=media&token=d6077525-5df0-4ab2-91bb-e7cc95a93f3f",
+      "text": " "
+    }
+  },
+
+  "DiscoverOurProducts": {
+    "title": "MontanAir.Ro",
+    "textSmall": "Produse Naturale pentru Tine"
+  },
+
+  "GrayPromotion": {
+    "text": "Un moment durează <strong> câteva secunde</strong>, dar amintirile rămân pentru totdeauna. - Lori Robinson"
+  },
+  "ProduseleNoastre": {
+    "title": "Produsele Noastre",
+    "metaDescription": "Lista produse MontanAir.Ro"
+  },
+  "socialsInfo": {
+    "socialLinks": {
+      "instagram": { "link": "https://instagram.com/MontanAir.Ro", "image": "instagram" },
+      "facebook": { "link": "https://facebook.com/MontanAir.Ro", "image": "facebook" },
+      "whatsapp": { "link": "https://whatsapp.com/MontanAir.Ro", "image": "whatsapp" }
+    }
+  },
+  "navMenu": {
+    "ourProducts": { "name": "Produsele noastre", "link": "/produsele-noastre" },
+    "aboutUs": { "name": "Despre noi", "link": "/produsele-noastre" },
+    "blog": { "name": "Blog", "link": "/blogs" },
+    "middleNOUI": { "name": "middle" },
+    "intrebariFrecvente": { "name": "Intrebari frecvente", "link": "/intrebari" },
+    "testimonials": { "name": "Testimoniale", "link": "/testimonials", "hide": "true" },
+    "contactUs": { "name": "Contact", "link": "/contact" }
+  },
+  "navMenuMobile": {
+    "ourProducts": {
+      "title": "PRODUSE",
+
+      "ulItems": {
+        "one": {
+          "title": "Kituri mulaj",
+          "link": "/produsele-noastre"
+        }
+      }
+    },
+
+    "blog": {
+      "title": "Blog",
+      "link": "/blogs"
+    },
+    "intrebari-frecvente": {
+      "title": "Intrebari",
+      "link": "/intrebari"
+    }
+  },
+  "cart": {
+    "title": "Cosul meu",
+    "link": "/cosulmeu",
+    "congratsMessage": "A fost adaugat cu succes in cosul tau de cumparaturi!"
+  },
+
+  "legal": {
+    "termsConditions": {
+      "title": "Termeni si Conditii",
+      "jsonContent": " <h3 class=\"middleText\"> Condiții generale: </h3> \n"
+    }
+  },
+  "rawCSS": {
+    "plainCSS": " <style> </style>"
+  },
+
+  "productDescription": {
+    "vitaminC": {
+      "text": "<b>VITAMINA C</b><br> luminează petele post-acneice sau hiperpigmentare",
+      "image": "vitaminaC"
+    },
+    "argila": { "text": "<b>ARGILA</b><br> desfundă și micșorează porii, oferind pielii matifiere", "image": "argila" },
+    "carbon": { "text": " <b>Carbunele activ</b><br> asigură o exfoliere blândă", "image": "carbon" }
+  },
+
+  "companyData": {
+    "name": "ELYS MOMOANE S.R.L",
+    "number": "RO46091570",
+    "fiscal": "J12/2529/10.05.2022",
+    "address": "str. Fragariste nr.28 loc. Turda, Cluj",
+    "phoneNumber": "+40 759 796 202"
+  },
+
+  "footerText": {
+    "headLines": {
+      "links": "Link-uri utile",
+      "commercialData": "Date comerciale",
+      "ourShop": "Magazinul nostru",
+      "bottomMadeBy": "Făcut cu ❤️ in Romania"
+    }
+  },
+
+  "orderFinishPage": {
+    "finishGuide": "Finalizeaza comanda",
+    "deliveringInfor": "Pregatim comanda de indata, ne mai lipsesc datele de livrare",
+    "invoiceDetails": "Detalii factura",
+    "inputsLabels": {
+      "lastName": "Nume",
+      "firstName": "Prenume",
+      "deliveryAddress": "Strada",
+      "city": "Oras",
+      "county": "Judet",
+      "phoneNo": "Telefon",
+      "emailAddress": "Email",
+      "orderMentions": "Note comandă [opțional]"
+    },
+
+    "totals": {
+      "product": "Produs",
+      "total": "Total",
+      "subTotal": "Subtotal",
+      "currency": "RON",
+      "TVAincluded": "TVA inclus",
+      "transport": "Transport"
+    },
+    "shipping": {
+      "estimation": "Livrarea produselor se va face in 24-48 ore",
+      "paymentMethod": "Metoda de plata",
+      "paymentMethodOptions": {
+        "cash": "Numerar",
+        "card": "Card",
+        "transfer": "Transfer bancar"
+      },
+      "paymentMethodError": "Nu ati selectat metoda de plata!",
+      "inputError": "Verificati datele introduse. Completarea spatilor cu * bulina sunt obligatorii"
+    },
+    "policyAgreementOrder": "Datele dumneavoastre personale vor fi folosite pentru a vă procesa comanda, pentru a vă susține experiența pe tot acest site web și pentru alte scopuri descrise în ",
+    "policyAgremenet": {
+      "name": "politica de confidentialitate",
+      "link": "/politica-confidentialitate",
+      "constent": {
+        "confirm": "Am citit și sunt de acord cu termenii și condiții site-ului web ",
+        "error": "Trebuie sa fiti de-acord cu termenii si conditiile pentru a plasa comanda!"
+      }
+    },
+    "orderItself": {
+      "sendFinishOrder": {
+        "nameButton": "Trimite comanda",
+        "pendingMessage": "Se trimite comanda..."
+      }
+    }
+  },
+
+  "blogsArea": {
+    "blogTitle": "Blog",
+    "blogSubtitle": "Afla informatii noi!",
+    "blogLink": "/blogs",
+    "blogURLSuffix": "blogid",
+    "blogsInner": {
+      "similarPosts": "Postari similare",
+      "readArticle": "Citeste mai mult..."
+    }
+  },
+
+  "testimonialsArea": {
+    "title": "Testimoniale",
+    "descriptionIntroduction": "Afla parerea clientilor despre produsele MontanAir.Ro!"
+  },
+
+  "orderView": {
+    "product": "Produs",
+    "unit": "buc",
+    "pricePerUnit": "Pret bucata",
+    "currency": "RON",
+    "subtotal": "Subtotal",
+    "shippingTax": "Taxa transport",
+    "total": "Total",
+
+    "clientSide": {
+      "title": "Client",
+      "name": "Nume",
+      "order": "Comanda",
+      "phone": "Telefon",
+      "date": "Data",
+      "paymentMethod": "Metoda de plata"
+    },
+    "ownerSide": {
+      "title": "Magazin",
+      "companyName": "Rus EMIL CRISTIAN INTREPRINDERE INDIVIDUALA",
+      "fiscal": "F12/696/23.04.2019",
+      "number": "41030416",
+      "address": "str. LIVIU REBREANU loc. Turda, Cluj "
+    },
+
+    "thankYouMessage": {
+      "title": "Multumim pentru incredere!",
+      "author": "Echipa MontanAir.Ro "
+    }
+  },
+
+  "ProductPreview": {
+    "callActionForReview": "Scrie un review",
+
+    "addToCartText": "Adauga in cos"
+  },
+  "NotExistingProduct": {
+    "warningHeadline": "PRODUS INEXISTENT !",
+    "productNotFound": "Din pacate nu am gasit produsul."
+  },
+  "ProductItem": {
+    "SeeProduct": "Vezi produs",
+    "Currency": "RON"
+  },
+  "MyCart": {
+    "quantity": "Cantitate",
+    "product": "Produse",
+    "finishOrder": { "text": "Finalizeaza comanda", "link": "/finalizare-comanda" },
+    "cartShopping": "Cos de cumparaturi",
+    "emptyCart": "Cosul de cumparaturi este gol",
+    "totalCart": "Total Cos",
+    "subTotal": "Subtotal",
+    "shippingTax": "Taxa transport",
+    "total": "Total",
+    "sendingInfo": "Livrare standard prin SameDay",
+    "VATincluded": "(include TVA)",
+    "currency": "RON"
+  },
+
+  "OrderDone": {
+    "title": "Comanda a fost inregistrată!😃",
+    "subtitle": "Veti fi contactat telefonic pentru confirmarea comenzii",
+    "goHome": "Spre pagina principala"
+  },
+
+  "NewsletterTermsAccept": {
+    "subscribeConsent": "Sunt de acord cu preluarea datelor cu caracter personal pentru a primi oferte personalizate",
+    "SubscribeMe": "Ma abonez",
+    "warningConsent": "Trebuie sa fiti de acord cu prelucrarea datelor dvs.",
+    "detailsWarning": "Datele pentru abonare trebuie sa fie valide!"
+  },
+
+  "NewsletterSection": {
+    "title": "Newsletter",
+    "subscribeCall": "Aboneaza-te la Newsletter-ul nostru si fii la curent cu noile promotii!",
+    "subscribeMe": "MĂ ABONEZ"
+  },
+
+  "BrandDetailsStr": {
+    "title": "MontanAir.Ro - produse premium pentru tine",
+    "description": "Construim si optimizam produsele ceea ce facem pentru ca tu sa poti avea parte de o amintire placuta cu persoanele dragi"
+  },
+
+  "FAQ": {
+    "topText": "FAQ",
+    "bottomText": "Intrebari frecvente",
+    "questionList": {
+      "questionOne": {
+        "question": "In cat timp soseste pachetul?",
+        "answer": "Coletul ajunge de obicei la client in 1-2 zile din momentul plasarii comenzii."
+      },
+      "questionTwo": {
+        "question": "Sunt produse naturale ?",
+        "answer": "Da da, foarte naturale"
+      },
+      "questionThree": {
+        "question": "Ce inseamna Garantie 100 % Retur la produse?",
+        "answer": " Oferim clientilor nostri dreptul de a returna kit-ul, chiar daca l-ati deschis, si ati realizat mulajul. Returnati tot kit-ul folosit, iar noi va vom returna suma de bani pentru produs, prin metoda de plata selectat initial la comanda."
+      }
+    }
+  },
+
+  "invoiceTemplate": {
+    "headerTextInvoice": "MontanAir.Ro - Cosmetice Naturale",
+    "thankYouMessage": "Va multumim de comanda!",
+    "authorSignature": "MontanAir.Ro"
+  }
+}
