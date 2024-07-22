@@ -66,6 +66,7 @@
     "react-admin": "^4.1.0",
     "react-apexcharts": "^1.4.0",
     "react-bootstrap": "^2.7.2",
+    "react-calendar": "^5.0.0",
     "react-chartjs-2": "4",
     "react-dom": "^17.0.2",
     "react-ga4": "^1.4.1",
@@ -102,7 +103,7 @@
   },
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "node api.js && react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
