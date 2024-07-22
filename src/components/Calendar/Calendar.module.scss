@@ -1,0 +1,71 @@
+@import "./../../main.module.scss";
+@import "./../../data//themes.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.calendarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hourSelection {
+  margin-top: 2rem;
+}
+
+.timeInputs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  input {
+    width: 100px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.addButton {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+.selectedIntervals {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 500px;
+
+  .intervalList {
+    margin-bottom: 1rem;
+
+    h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0.5rem 0 0 0;
+
+      li {
+        background-color: #f0f0f0;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        text-align: center;
+      }
+    }
+  }
+}
