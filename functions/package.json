@@ -5,7 +5,7 @@
     "build": "tsc -w",
     "serve": "yarn run build && firebase emulators:start --only functions",
     "shell": "npm run build && firebase functions:shell",
-    "start": "npm run shell",
+    "start": "node api.js && npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
